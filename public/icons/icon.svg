@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="28%" r="75%">
+      <stop offset="0%" stop-color="#221c14"/>
+      <stop offset="55%" stop-color="#16130f"/>
+      <stop offset="100%" stop-color="#0a0907"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c987"/>
+      <stop offset="55%" stop-color="#c9a961"/>
+      <stop offset="100%" stop-color="#8f7840"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="22" ry="22" fill="url(#bg)"/>
+  <rect x="6.5" y="6.5" width="115" height="115" rx="17" ry="17"
+        fill="none" stroke="#3a3020" stroke-width="1"/>
+  <rect x="9.5" y="9.5" width="109" height="109" rx="14" ry="14"
+        fill="none" stroke="#c9a961" stroke-opacity="0.18" stroke-width="0.75"/>
+
+  <text x="64" y="94"
+        text-anchor="middle"
+        font-family="Didot, 'Bodoni 72', 'Playfair Display', Georgia, serif"
+        font-weight="400"
+        font-size="88"
+        fill="url(#gold)">G</text>
+</svg>
