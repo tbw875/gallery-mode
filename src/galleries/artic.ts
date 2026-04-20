@@ -43,7 +43,7 @@ export const articAdapter: GalleryAdapter = {
 
     const filters = [
       "query[bool][must][0][term][is_public_domain]=true",
-      "query[bool][must][1][term][classification_title]=painting",
+      "query[bool][must][1][match][classification_title]=painting",
       "query[bool][must][2][range][date_start][gte]=1300",
       "query[bool][must][3][range][date_end][lte]=1920",
       "query[bool][must][4][match][department_title]=Painting%20and%20Sculpture%20of%20Europe",
