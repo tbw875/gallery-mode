@@ -1,6 +1,6 @@
 {
   "name": "gallery-mode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Browser extension that replaces ads with artwork from open museum APIs.",
   "private": true,
   "type": "module",
